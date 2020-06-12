@@ -317,9 +317,13 @@ nav {
 .portfolio-item img {
   width: 100%;
   overflow: hidden;
+ 
 }
 
 .portfolio-item .thumb {
+  margin-bottom: 24px;
+  border-radius: 4px;
+  overflow: hidden;
   position: relative;
 }
 
@@ -689,6 +693,8 @@ footer a:hover {
 
 .grid-portfolio .portfolio-item {
   margin: 15px 0px;
+  display: flex;
+  position: relative;
 }
 
 .portfolio-item .hover-effect .hover-content {
